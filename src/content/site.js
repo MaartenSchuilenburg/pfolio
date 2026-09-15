@@ -6,7 +6,7 @@
  * list in step with hyperion-landing's src/content/site.js.
  */
 
-export const SITE_URL = 'https://maartenschuilenburg.nl'
+export const SITE_URL = 'https://www.maartenschuilenburg.nl'
 export const HYPERIONMIND_URL = 'https://www.hyperionmind.eu/'
 export const CAL_URL = 'https://cal.com/maarten-schuilenburg-npd6oq/30min'
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/maartenschuilenburg/'
