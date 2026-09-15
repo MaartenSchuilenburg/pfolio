@@ -3,15 +3,26 @@ import { Reveal, RevealGroup, RevealItem, SpotlightCard, WordReveal } from './fx
 import { useContent } from '../hooks/useContent'
 
 /**
- * Media per project id (the ids are the same in nl.js and en.js). Only real, cleared images: the old
- * client dashboard screenshots show client figures and stay off the site. No image beats a fake one.
+ * Media and links per project id (the ids are the same in nl.js and en.js; the link text is the
+ * item's linkLabel). Only real, cleared images: the client dashboard screenshots with client figures
+ * stay off the site. `wide` spans two grid columns.
  */
 const MEDIA = {
+  nbf: {
+    link: 'https://nbf-demo.onrender.com/',
+  },
   pharmalarm: {
     image: '/images/pharmalarm.webp',
     width: 1400,
     height: 933,
+    wide: true,
     link: 'https://accountabilityhack.nl/2019/10/09/1430/',
+  },
+  // Login e-mail address blurred in the screenshot
+  sustainability: {
+    image: '/images/sustainability.webp',
+    width: 1316,
+    height: 586,
   },
 }
 
@@ -29,7 +40,7 @@ export function Projects() {
         {t.projects.items.map((project) => {
           const media = MEDIA[project.id]
           return (
-            <RevealItem key={project.id} className={`h-full ${media?.image ? 'md:col-span-2 lg:col-span-2' : ''}`}>
+            <RevealItem key={project.id} className={`h-full ${media?.wide ? 'md:col-span-2' : ''}`}>
               <SpotlightCard className="flex h-full flex-col">
                 {media?.image && (
                   <img
@@ -38,7 +49,9 @@ export function Projects() {
                     width={media.width}
                     height={media.height}
                     loading="lazy"
-                    className="aspect-[3/2] w-full border-b border-border-primary object-cover md:aspect-[21/9]"
+                    className={`w-full border-b border-border-primary object-cover object-left-top ${
+                      media.wide ? 'aspect-[3/2] md:aspect-[21/9]' : 'aspect-[16/9] bg-white'
+                    }`}
                   />
                 )}
                 <div className="flex flex-1 flex-col p-6 md:p-7">
@@ -54,14 +67,14 @@ export function Projects() {
                         {tag}
                       </span>
                     ))}
-                    {media?.link && (
+                    {media?.link && project.linkLabel && (
                       <a
                         href={media.link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="ml-auto text-sm font-semibold text-accent-action hover:text-accent-action-hover"
                       >
-                        {t.projects.linkLabel} →
+                        {project.linkLabel} →
                       </a>
                     )}
                   </div>

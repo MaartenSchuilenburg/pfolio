@@ -38,7 +38,7 @@ export default {
     paragraphs: [
       'Ik woon en werk in de regio Arnhem. Sinds 2021 ben ik zelfstandig, onder de naam HyperionMind. De persoon in het eerste gesprek is de persoon die de requirements schrijft en de applicatie bouwt.',
       'De energiesector is waar mijn hart ligt. De energietransitie verandert hoe we opwekken, meten, verdelen en afrekenen, en achter elke verandering zit een proces dat iemand moet laten werken.',
-      'Die interesse begon technisch. Met mijn praktijkdiploma Elektrotechniek weet ik wat er in het veld gebeurt. Als productmanager bij een energiebedrijf zag ik de andere kant: offertes, contracten, meetdata en facturatie die op elkaar moeten aansluiten.',
+      'Die interesse begon technisch, met een cursus Elektrotechniek. Als productmanager bij een energiebedrijf zag ik de andere kant: offertes, contracten, meetdata en facturatie die op elkaar moeten aansluiten.',
       'Mijn vak is de brug tussen business en IT. Eerst de mensen spreken die het werk doen, dan de requirements, dan pas bouwen. Door acht jaar data en analytics, onder meer bij Deloitte en KPN, is de rapportage bij mij geen bijzaak.',
     ],
     stats: {
@@ -56,7 +56,7 @@ export default {
         org: 'HyperionMind',
         role: 'Oprichter',
         period: { from: 2021, to: null },
-        text: 'Eenmanszaak in de regio Arnhem. Maatwerk naast het ERP voor energiebedrijven, altijd beginnend met een procesgesprek. Daarnaast freelance opdrachten, onder meer voor de NBF, KPN, My Jewellery en de NTFU.',
+        text: 'BV in de regio Arnhem. Maatwerk voor ERP-systemen bij energiebedrijven, altijd beginnend met een procesgesprek.',
       },
       {
         org: 'Kenter Groendus',
@@ -83,10 +83,10 @@ export default {
   projects: {
     title: 'Projecten',
     intro: 'Een selectie, van maatwerkapplicaties tot BI-platforms.',
-    linkLabel: 'Lees het nieuwsbericht',
     items: [
       {
         id: 'nbf',
+        linkLabel: 'Bekijk de demo',
         title: 'Webapplicatie voor een kernproces',
         org: 'NBF, via HyperionMind',
         text: 'Full-stack webapplicatie voor een kernproces van de organisatie, van requirements via datamodel, back-end en front-end tot livegang.',
@@ -94,6 +94,7 @@ export default {
       },
       {
         id: 'cpq',
+        linkLabel: null,
         title: 'Configure-Price-Quote-applicatie',
         org: 'Energiebedrijf',
         text: 'Een offerteproces dat in een spreadsheet was gegroeid, als applicatie naast de standaardsystemen. Als productmanager eigenaar van requirements tot livegang.',
@@ -101,6 +102,7 @@ export default {
       },
       {
         id: 'image-review',
+        linkLabel: null,
         title: 'Webapplicatie voor beeldbeoordeling',
         org: 'Klant van Deloitte',
         text: 'Collega’s trainden een beeldherkenningsmodel dat afwijkingen in camerabeelden signaleert. Ik bouwde de webapplicatie waarin gebruikers die beelden beoordelen en corrigerende acties vastleggen, met authenticatie, database en notificaties.',
@@ -108,6 +110,7 @@ export default {
       },
       {
         id: 'pharmalarm',
+        linkLabel: 'Lees het nieuwsbericht',
         title: 'Pharmalarm',
         org: 'Accountability Hack 2019, Tweede Kamer',
         text: 'Met open data combineerden we medicijnprijzen uit zes andere landen tot een webapplicatie waarmee Kamerleden medicijnen en leveranciers vergelijken. Winnaar van challenge 2, met €20.000 doorontwikkelbudget.',
@@ -115,6 +118,7 @@ export default {
       },
       {
         id: 'my-jewellery',
+        linkLabel: null,
         title: 'BI-platform',
         org: 'My Jewellery, freelance',
         text: 'Mee-ontwikkeld aan het nieuwe BI-platform: transformaties in dbt op Snowflake, met CI/CD via GitHub Actions.',
@@ -122,6 +126,7 @@ export default {
       },
       {
         id: 'ntfu',
+        linkLabel: null,
         title: 'BI-platform voor ledenbeheer',
         org: 'NTFU, freelance',
         text: 'BI-platform voor de Nederlandse Toer Fiets Unie, met inzicht in de in- en uitstroom van leden.',
@@ -129,6 +134,7 @@ export default {
       },
       {
         id: 'management-dashboards',
+        linkLabel: null,
         title: 'Managementdashboards',
         org: 'Deloitte',
         text: 'Managementdashboards in Qlik en Power BI, getest met de eindgebruikers. Begonnen als ontwikkelaar, later technical lead van het team data-analisten.',
@@ -136,6 +142,7 @@ export default {
       },
       {
         id: 'sustainability',
+        linkLabel: null,
         title: 'Duurzaamheidsdashboard',
         org: 'Deloitte',
         text: 'Een team bouwde een blockchainoplossing voor de verkoop van tokens voor CO₂e-reductie. Ik ontwierp en bouwde het React-dashboard met de transactierapportage.',
@@ -150,11 +157,11 @@ export default {
     degrees: [
       'Master Information Management, Tilburg University en University of Turku (dubbele master)',
       'Bachelor Business Administration, minor ERP & Business Intelligence',
-      'Praktijkdiploma Elektrotechniek',
     ],
     certificationsLabel: 'Certificering',
     coursesLabel: 'Cursussen',
     courses: [
+      'Cursus Elektrotechniek',
       'Harvard CS50 Web Programming with Python and JavaScript',
       'The Complete Web Developer: Zero to Mastery',
     ],

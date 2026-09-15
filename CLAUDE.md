@@ -14,7 +14,9 @@ Vercel. Dutch at `/`, English at `/en`. See `docs/adr/0001-rebuild-bilingual-vit
 - **Keep facts in step with hyperion-landing** (`C:\1repos\0test\hyperion-landing\src\content\site.js`):
   cal.com link, email, KvK, organisations, certifications.
 - Never invent numbers, clients or projects. Only real, cleared images; the old client dashboard
-  screenshots show client figures and stay off.
+  screenshots (My Jewellery, NTFU, Deloitte management) show client figures and stay off.
+- HyperionMind is a **BV** (not an eenmanszaak); the electrical engineering training is a
+  **Cursus Elektrotechniek** (not a praktijkdiploma).
 - **Branches:** `rebuild` is the working branch; `main` is production; `legacy-simplefolio` keeps
   the old site. Merge to `main` only when Maarten says so.
 - **Never commit `.claude/`.** Push only when asked. The DNS switch at Strato is Maarten's to do.

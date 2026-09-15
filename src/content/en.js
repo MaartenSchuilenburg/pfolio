@@ -37,7 +37,7 @@ export default {
     paragraphs: [
       'I live and work in the Arnhem region, in the Netherlands. I have been independent since 2021, trading as HyperionMind. The person in the first meeting is the person who writes the requirements and builds the application.',
       'The energy sector is where my heart is. The energy transition is changing how we generate, meter, distribute and bill, and behind every change sits a process someone has to make work.',
-      'That interest started on the technical side. My practical diploma in electrical engineering means I know what happens in the field. As a product manager at an energy company I saw the other side: quotes, contracts, metering data and billing that all have to line up.',
+      'That interest started on the technical side, with a course in electrical engineering (Cursus Elektrotechniek). As a product manager at an energy company I saw the other side: quotes, contracts, metering data and billing that all have to line up.',
       'My trade is the bridge between business and IT. First talk to the people who do the work, then the requirements, and only then build. Eight years in data and analytics, at Deloitte and KPN among others, is why the reporting is never an afterthought.',
     ],
     stats: {
@@ -55,7 +55,7 @@ export default {
         org: 'HyperionMind',
         role: 'Founder',
         period: { from: 2021, to: null },
-        text: 'Sole proprietorship in the Arnhem region. Custom applications beside the ERP for energy companies, always starting with a process call. Alongside it, freelance engagements for NBF, KPN, My Jewellery and NTFU, among others.',
+        text: 'Private limited company (BV) in the Arnhem region. Custom work for ERP systems at energy companies, always starting with a process call.',
       },
       {
         org: 'Kenter Groendus',
@@ -82,10 +82,10 @@ export default {
   projects: {
     title: 'Projects',
     intro: 'A selection, from custom applications to BI platforms.',
-    linkLabel: 'Read the news item (Dutch)',
     items: [
       {
         id: 'nbf',
+        linkLabel: 'View the demo',
         title: 'Web application for a core process',
         org: 'NBF, through HyperionMind',
         text: 'Full-stack web application for a core process of the organisation, from requirements through data model, back end and front end to go-live.',
@@ -93,6 +93,7 @@ export default {
       },
       {
         id: 'cpq',
+        linkLabel: null,
         title: 'Configure-Price-Quote application',
         org: 'Energy company',
         text: 'A quotation process that had grown up in a spreadsheet, turned into an application beside the standard systems. Owned it as product manager, from requirements to go-live.',
@@ -100,6 +101,7 @@ export default {
       },
       {
         id: 'image-review',
+        linkLabel: null,
         title: 'Web application for image review',
         org: 'Deloitte client',
         text: 'Colleagues trained an image recognition model that flags anomalies in camera footage. I built the web application where users review that footage and record corrective actions, with authentication, a database and notifications.',
@@ -107,6 +109,7 @@ export default {
       },
       {
         id: 'pharmalarm',
+        linkLabel: 'Read the news item (Dutch)',
         title: 'Pharmalarm',
         org: 'Accountability Hack 2019, Dutch House of Representatives',
         text: 'Using open data, we combined medicine prices from six other countries into a web application that lets members of parliament compare medicines and suppliers. Winner of challenge 2, with €20,000 in development budget.',
@@ -114,6 +117,7 @@ export default {
       },
       {
         id: 'my-jewellery',
+        linkLabel: null,
         title: 'BI platform',
         org: 'My Jewellery, freelance',
         text: 'Co-developed the new BI platform: transformations in dbt on Snowflake, with CI/CD through GitHub Actions.',
@@ -121,6 +125,7 @@ export default {
       },
       {
         id: 'ntfu',
+        linkLabel: null,
         title: 'BI platform for membership management',
         org: 'NTFU, freelance',
         text: 'BI platform for the Dutch cycling touring association NTFU, showing how members join and leave.',
@@ -128,6 +133,7 @@ export default {
       },
       {
         id: 'management-dashboards',
+        linkLabel: null,
         title: 'Management dashboards',
         org: 'Deloitte',
         text: 'Management dashboards in Qlik and Power BI, tested with the end users. Started as a developer, later technical lead of the data analyst team.',
@@ -135,6 +141,7 @@ export default {
       },
       {
         id: 'sustainability',
+        linkLabel: null,
         title: 'Sustainability dashboard',
         org: 'Deloitte',
         text: 'A team built a blockchain solution for selling CO₂e reduction tokens. I designed and built the React dashboard with the transaction reporting.',
@@ -149,11 +156,11 @@ export default {
     degrees: [
       'MSc Information Management, Tilburg University and University of Turku (double degree)',
       'BSc Business Administration, minor in ERP & Business Intelligence',
-      'Practical diploma in electrical engineering (Praktijkdiploma Elektrotechniek)',
     ],
     certificationsLabel: 'Certification',
     coursesLabel: 'Courses',
     courses: [
+      'Course in electrical engineering (Cursus Elektrotechniek)',
       'Harvard CS50 Web Programming with Python and JavaScript',
       'The Complete Web Developer: Zero to Mastery',
     ],

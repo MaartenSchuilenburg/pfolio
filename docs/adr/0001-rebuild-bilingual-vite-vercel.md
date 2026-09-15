@@ -32,8 +32,9 @@ apparently uploaded by hand. The repo's GitHub Pages workflow did not serve the 
    records change (see below).
 5. **No analytics** for now (founder decision 2026-09-15). No PDF CV: LinkedIn is the CV.
 6. **Names and images.** Client names cleared for the web on 2026-09-15 are named, including My
-   Jewellery and NTFU. The old dashboard screenshots are not used: they show client figures. The
-   only project image is the public Accountability Hack 2019 photo.
+   Jewellery and NTFU. The old client dashboard screenshots are not used: they show client figures.
+   Project images: the public Accountability Hack 2019 photo, and the Deloitte sustainability
+   dashboard (restored at the founder's request 2026-09-15, login e-mail address blurred).
 
 ## Alternatives considered
 
