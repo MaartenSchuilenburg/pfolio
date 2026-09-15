@@ -56,7 +56,7 @@ export default {
         org: 'HyperionMind',
         role: 'Oprichter',
         period: { from: 2021, to: null },
-        text: 'BV in de regio Arnhem. Maatwerk voor ERP-systemen bij energiebedrijven, altijd beginnend met een procesgesprek.',
+        text: 'Mijn bedrijf, in de regio Arnhem. Maatwerk voor ERP-systemen bij energiebedrijven, altijd beginnend met een procesgesprek.',
       },
       {
         org: 'Kenter Groendus',

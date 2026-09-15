@@ -55,7 +55,7 @@ export default {
         org: 'HyperionMind',
         role: 'Founder',
         period: { from: 2021, to: null },
-        text: 'Private limited company (BV) in the Arnhem region. Custom work for ERP systems at energy companies, always starting with a process call.',
+        text: 'My company, in the Arnhem region. Custom work for ERP systems at energy companies, always starting with a process call.',
       },
       {
         org: 'Kenter Groendus',

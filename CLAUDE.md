@@ -15,7 +15,8 @@ Vercel. Dutch at `/`, English at `/en`. See `docs/adr/0001-rebuild-bilingual-vit
   cal.com link, email, KvK, organisations, certifications.
 - Never invent numbers, clients or projects. Only real, cleared images; the old client dashboard
   screenshots (My Jewellery, NTFU, Deloitte management) show client figures and stay off.
-- HyperionMind is a **BV** (not an eenmanszaak); the electrical engineering training is a
+- Call HyperionMind **"mijn bedrijf" / "my company"**: never name a legal form (no eenmanszaak,
+  no BV). The electrical engineering training is a
   **Cursus Elektrotechniek** (not a praktijkdiploma).
 - **Branches:** `rebuild` is the working branch; `main` is production; `legacy-simplefolio` keeps
   the old site. Merge to `main` only when Maarten says so.
